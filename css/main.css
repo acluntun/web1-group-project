@@ -1,8 +1,101 @@
 /* START NAV */
+ nav {
+display: flex;
+justify-content: space-between;
+font-family: 'Muli', sans-serif;
+}
+
+nav div {
+  display: flex;
+  width: 40%;
+}
+  
+.brand {
+display: flex;
+color: #69ACD9;
+margin-left: 6%;
+margin-right: 4%;
+}
+
+.links {
+ display: flex;
+ color: #69ACD9;
+ font-size: 14px;
+ }
+
+.links p {
+ display: flex;
+ padding-left:10px;
+ padding-right:10px;
+ padding-top:9px;
+ padding-bottom:10px;
+}
+
+.notify {
+display: flex;}
+
+
+img {
+width: 30px;
+height: 30px;
+padding-left:10px;
+padding-right:10px;
+padding-top:12px;
+padding-bottom:10px;
+}
+
 
 /* END NAV */
 /* START HEADER */
+.header {
+  display: flex;
+  background-color: #3B5274;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: Muli;
+  
+  
+}
 
+.headergrid {
+  display: grid;
+  width: 1600px;
+  grid-template: repeat(16, 40px) / repeat(16, 100px);
+}
+
+.headersubtitle {
+  grid-column: 10/13;
+  grid-row: 4/5;
+  align-self: flex-end;
+  color: white;
+}
+
+.headertitle {
+  grid-column: 5/11;
+  grid-row: 5/10;
+  line-height: .2;
+  align-self: center;
+  color: white;
+}
+
+.headevent {
+  color: #89C6DB;
+}
+
+.headertitle h1{
+  font-size: 50pt;
+}
+
+.headerbutton {
+  grid-column: 10/13;
+  grid-row: 11/13;
+  align-self: flex-start;
+  text-align: center;
+  border: 1px solid #89C6DB;
+  font-size: 12pt;
+  color: #89C6DB;
+}
 /* END HEADER */
 /* START ABOUT */
 #about-sec {
