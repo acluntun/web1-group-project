@@ -63,6 +63,44 @@
 
 /* END GALLERY */
 /* START FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+}
 
+.footer-explore,
+.footer-follow,
+.footer-legal{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-club,
+.footer-visit,
+.footer-legal {
+  background: #3b5274;
+  border-radius: 5px;
+  padding: 5%
+}
+
+.footer-explore,
+.footer-follow {
+  background: #758a8d;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-h1,
+.footer-h2,
+.footer-text {
+  color: white;
+}
 /* END FOOTER */
   
