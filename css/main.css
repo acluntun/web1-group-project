@@ -2,7 +2,54 @@
 
 /* END NAV */
 /* START HEADER */
+.header {
+  display: flex;
+  background-color: #3B5274;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: Muli;
+  
+}
 
+.headergrid {
+  display: grid;
+  width: 1600px;
+  grid-template: repeat(16, 40px) / repeat(16, 100px);
+}
+
+.headersubtitle {
+  grid-column: 10/13;
+  grid-row: 4/5;
+  align-self: flex-end;
+  color: white;
+}
+
+.headertitle {
+  grid-column: 5/11;
+  grid-row: 5/10;
+  line-height: .2;
+  align-self: center;
+  color: white;
+}
+
+.headevent {
+  color: #89C6DB;
+}
+
+.headertitle h1{
+  font-size: 50pt;
+}
+
+.headerbutton {
+  grid-column: 10/13;
+  grid-row: 11/13;
+  align-self: flex-start;
+  text-align: center;
+  border: 1px solid #89C6DB;
+  font-size: 12pt;
+  color: #89C6DB;
+}
 /* END HEADER */
 /* START ABOUT */
 #about-sec {
