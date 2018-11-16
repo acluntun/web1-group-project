@@ -1,4 +1,48 @@
 /* START NAV */
+nav {
+display: flex;
+justify-content: space-between;
+font-family: 'Muli', sans-serif;
+}
+
+nav div {
+  display: flex;
+  width: 40%;
+}
+  
+.brand {
+display: flex;
+color: #69ACD9;
+margin-left: 6%;
+margin-right: 4%;
+}
+
+.links {
+ display: flex;
+ color: #69ACD9;
+ font-size: 14px;
+ }
+
+.links p {
+ display: flex;
+ padding-left:10px;
+ padding-right:10px;
+ padding-top:9px;
+ padding-bottom:10px;
+}
+
+.notify {
+display: flex;}
+
+
+img {
+width: 30px;
+height: 30px;
+padding-left:10px;
+padding-right:10px;
+padding-top:12px;
+padding-bottom:10px;
+}
 
 /* END NAV */
 /* START HEADER */
