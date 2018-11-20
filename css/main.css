@@ -176,7 +176,7 @@ padding-bottom:10px;
 .gallery {
 	justify-content: center;
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: 1fr, 1 fr, 50px;
 	grid-template-rows: repeat(3, 1fr)  50px;
    height: 80vh;
 }
