@@ -212,7 +212,7 @@ img {
 }
 
 /* END GALLERY */
-/* START FOOTER */
+/* START FOOTER Created by Phillip Smelser */
 .footer {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
