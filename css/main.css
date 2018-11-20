@@ -174,7 +174,7 @@ padding-bottom:10px;
 
 
 .gallery {
-	position: absolute;
+	justify-content: center;
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-template-rows: repeat(3, 1fr)  50px;
