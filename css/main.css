@@ -157,6 +157,10 @@ padding-bottom:10px;
 
 /* Allison Varady */
 
+*{
+align-content: center;
+}
+
 .heading{
   text-align: center;
   font-family: 'Muli', sans-serif;
