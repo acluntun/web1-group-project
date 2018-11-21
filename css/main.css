@@ -176,7 +176,7 @@ padding-bottom:10px;
 .gallery {
   justify-content: center;
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: repeat(7, 1fr);
 	grid-template-rows: repeat(3, 1fr)  50px;
    height: 80vh;
 }
@@ -184,31 +184,31 @@ padding-bottom:10px;
 #shark {
 	grid-row-start: 1;
 	grid-row-end: 3;
-	grid-column-start: 2;
-	grid-column-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
 	
 }
 
 #frankenstien {
 	grid-row-start: 1;
 	grid-row-end: 2;
-	grid-column-start: 3;
-	grid-column-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 5;
 
 }
 
 #mfa {
   grid-row-start: 1;
 	grid-row-end: 3;
-	grid-column-start: 4;
-	grid-column-end: 5;	
+	grid-column-start: 5;
+	grid-column-end: 6;	
 }
 
 #web {
   grid-row-start: 2;
 	grid-row-end: 3;
-	grid-column-start: 3;
-	grid-column-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 5;
 	
 }
 
